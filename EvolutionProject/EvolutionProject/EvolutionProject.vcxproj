@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{764D6C1D-33C0-487C-BF2E-328C7D055C18}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>EvolutionProject</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)Library\DirectX\Include;$(SolutionDir)Library\DXUT\Core;$(SolutionDir)Library\DXUT\Optional;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Library\DirectX\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)Library\DirectX\Include;$(SolutionDir)Library\DXUT\Core;$(SolutionDir)Library\DXUT\Optional;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Library\DirectX\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;strmiids.lib;strmbase.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;strmiids.lib;strmbase.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="EvolutionAnimationHierarchy.cpp" />
+    <ClCompile Include="EvolutionAnimationModel.cpp" />
+    <ClCompile Include="EvolutionCollider.cpp" />
+    <ClCompile Include="EvolutionDiffuseSkinning.cpp" />
+    <ClCompile Include="EvolutionDiffuseTexture.cpp" />
+    <ClCompile Include="EvolutionModel.cpp" />
+    <ClCompile Include="EvolutionShape.cpp" />
+    <ClCompile Include="EvolutionCore.cpp" />
+    <ClCompile Include="EvolutionDiffuse.cpp" />
+    <ClCompile Include="EvolutionEffectManager.cpp" />
+    <ClCompile Include="EvolutionGameObject2D.cpp" />
+    <ClCompile Include="EvolutionGameObject.cpp" />
+    <ClCompile Include="EvolutionInput.cpp" />
+    <ClCompile Include="EvolutionLog.cpp" />
+    <ClCompile Include="EvolutionMain.cpp" />
+    <ClCompile Include="EvolutionMath.cpp" />
+    <ClCompile Include="EvolutionScene.cpp" />
+    <ClCompile Include="EvolutionSceneManager.cpp" />
+    <ClCompile Include="EvolutionShader.cpp" />
+    <ClCompile Include="EvolutionSkinningModel.cpp" />
+    <ClCompile Include="EvolutionSkyBox.cpp" />
+    <ClCompile Include="EvolutionSphereCollider.cpp" />
+    <ClCompile Include="EvolutionSprite2D.cpp" />
+    <ClCompile Include="EvolutionTextureManager.cpp" />
+    <ClCompile Include="EvolutionTime.cpp" />
+    <ClCompile Include="EvolutionCamera.cpp" />
+    <ClCompile Include="EvolutionTrail.cpp" />
+    <ClCompile Include="EvolutionUIFont.cpp" />
+    <ClCompile Include="TestObject.cpp" />
+    <ClCompile Include="TestScene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EvolutionAnimationHierarchy.h" />
+    <ClInclude Include="EvolutionAnimationModel.h" />
+    <ClInclude Include="EvolutionCollider.h" />
+    <ClInclude Include="EvolutionDiffuseTexture.h" />
+    <ClInclude Include="EvolutionDiffuseSkinning.h" />
+    <ClInclude Include="EvolutionModel.h" />
+    <ClInclude Include="EvolutionShape.h" />
+    <ClInclude Include="EvolutionConsole.h" />
+    <ClInclude Include="EvolutionCore.h" />
+    <ClInclude Include="EvolutionDiffuse.h" />
+    <ClInclude Include="EvolutionEffectManager.h" />
+    <ClInclude Include="EvolutionGameObject2D.h" />
+    <ClInclude Include="EvolutionGameObject.h" />
+    <ClInclude Include="EvolutionInput.h" />
+    <ClInclude Include="EvolutionLog.h" />
+    <ClInclude Include="EvolutionMath.h" />
+    <ClInclude Include="EvolutionScene.h" />
+    <ClInclude Include="EvolutionSceneManager.h" />
+    <ClInclude Include="EvolutionShader.h" />
+    <ClInclude Include="EvolutionSkinningModel.h" />
+    <ClInclude Include="EvolutionSkyBox.h" />
+    <ClInclude Include="EvolutionSphereCollider.h" />
+    <ClInclude Include="EvolutionSprite2D.h" />
+    <ClInclude Include="EvolutionTextureManager.h" />
+    <ClInclude Include="EvolutionTime.h" />
+    <ClInclude Include="EvolutionCamera.h" />
+    <ClInclude Include="EvolutionTrail.h" />
+    <ClInclude Include="EvolutionUIFont.h" />
+    <ClInclude Include="TestObject.h" />
+    <ClInclude Include="TestScene.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

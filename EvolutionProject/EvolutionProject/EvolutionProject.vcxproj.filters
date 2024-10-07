@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="EvolutionMain.cpp" />
+    <ClCompile Include="EvolutionCore.cpp">
+      <Filter>EvolutionEngine\EvolutionSystem\EvolutionCore</Filter>
+    </ClCompile>
+    <ClCompile Include="EvolutionTime.cpp">
+      <Filter>EvolutionEngine\EvolutionSystem\EvolutionTime</Filter>
+    </ClCompile>
+    <ClCompile Include="EvolutionGameObject2D.cpp">
+      <Filter>EvolutionEngine\EvolutionGameObject\EvolutionGameObject2D</Filter>
+    </ClCompile>
+    <ClCompile Include="EvolutionGameObject.cpp">
+      <Filter>EvolutionEngine\EvolutionGameObject\EvolutionGameObject3D</Filter>
+    </ClCompile>
+    <ClCompile Include="EvolutionScene.cpp">
+      <Filter>EvolutionEngine\EvolutionScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EvolutionSceneManager.cpp">
+      <Filter>EvolutionEngine\EvolutionSystem\EvolutionManagers\EvolutionSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>Game\TestScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EvolutionLog.cpp">
+      <Filter>EvolutionEngine\EvolutionSystem\EvolutionTracers\EvolutionLog</Filter>
+    </ClCompile>
+    <ClCompile Include="EvolutionInput.cpp">
+      <Filter>EvolutionEngine\EvolutionSystem\EvolutionInput</Filter>
+    </ClCompile>
+    <ClCompile Include="EvolutionCamera.cpp">
+      <Filter>EvolutionEngine\EvolutionCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="EvolutionSkyBox.cpp">
+      <Filter>EvolutionEngine\EvolutionSkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="EvolutionTextureManager.cpp">
+      <Filter>EvolutionEngine\EvolutionSystem\EvolutionManagers\EvolutionTextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="EvolutionMath.cpp">
+      <Filter>EvolutionEngine\EvolutionSystem\EvolutionMath</Filter>
+    </ClCompile>
+    <ClCompile Include="EvolutionEffectManager.cpp">
+      <Filter>EvolutionEngine\EvolutionSystem\EvolutionManagers\EvolutionEffectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="EvolutionDiffuse.cpp">
+      <Filter>EvolutionEngine\EvolutionSystem\EvolutionShaders\EvolutionDiffuse\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="EvolutionShape.cpp">
+      <Filter>EvolutionEngine\EvolutionShape</Filter>
+    </ClCompile>
+    <ClCompile Include="EvolutionShader.cpp">
+      <Filter>EvolutionEngine\EvolutionSystem\EvolutionShaders\EvolutionShader</Filter>
+    </ClCompile>
+    <ClCompile Include="EvolutionUIFont.cpp">
+      <Filter>EvolutionEngine\EvolutionUIFont</Filter>
+    </ClCompile>
+    <ClCompile Include="EvolutionDiffuseTexture.cpp">
+      <Filter>EvolutionEngine\EvolutionSystem\EvolutionShaders\EvolutionDiffuse\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="EvolutionModel.cpp">
+      <Filter>EvolutionEngine\EvolutionModel</Filter>
+    </ClCompile>
+    <ClCompile Include="EvolutionSphereCollider.cpp">
+      <Filter>EvolutionEngine\EvolutionColliders\EvolutionSphereCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="EvolutionCollider.cpp">
+      <Filter>EvolutionEngine\EvolutionColliders\EvolutionCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="TestObject.cpp">
+      <Filter>Game\TestObject</Filter>
+    </ClCompile>
+    <ClCompile Include="EvolutionAnimationModel.cpp">
+      <Filter>EvolutionEngine\EvolutionAnimationModel</Filter>
+    </ClCompile>
+    <ClCompile Include="EvolutionSkinningModel.cpp">
+      <Filter>EvolutionEngine\EvolutionAnimationModel\EvolutionSkinningModel</Filter>
+    </ClCompile>
+    <ClCompile Include="EvolutionAnimationHierarchy.cpp">
+      <Filter>EvolutionEngine\EvolutionAnimationModel\EvolutionAnimationHierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="EvolutionDiffuseSkinning.cpp">
+      <Filter>EvolutionEngine\EvolutionSystem\EvolutionShaders\EvolutionDiffuse\Skinning</Filter>
+    </ClCompile>
+    <ClCompile Include="EvolutionTrail.cpp">
+      <Filter>EvolutionEngine\EvolutionTrail</Filter>
+    </ClCompile>
+    <ClCompile Include="EvolutionSprite2D.cpp">
+      <Filter>EvolutionEngine\EvolutionSprite2D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="EvolutionEngine">
+      <UniqueIdentifier>{f715d823-b84e-4f18-9628-7a521f6522d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionScene">
+      <UniqueIdentifier>{893319c0-9a9f-4edf-ad82-c67eab5a4c95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionGameObject">
+      <UniqueIdentifier>{fd25d041-9b7f-42f2-b5e6-bd4004314e82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionGameObject\EvolutionGameObject3D">
+      <UniqueIdentifier>{a7ae8200-9e0f-4989-bcb5-1885721c6f3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionGameObject\EvolutionGameObject2D">
+      <UniqueIdentifier>{3abdd7e5-b2e0-46e4-b273-ae3e16fd9898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionCamera">
+      <UniqueIdentifier>{11dd7ff7-1eee-45ee-b587-e2010eb09e31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{015f3eef-dece-472c-ac25-a3d5d6817cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\TestScene">
+      <UniqueIdentifier>{d9ad8660-a8de-4102-b035-490f9994d468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionSkyBox">
+      <UniqueIdentifier>{e4dd0ba5-00ed-420d-b4cb-8c4a8d20f572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionShape">
+      <UniqueIdentifier>{e0f2e291-2353-45b7-abeb-f1bec77ce67a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionUIFont">
+      <UniqueIdentifier>{09ce503b-8e05-45c3-ba3f-e3186fa5625d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionSystem">
+      <UniqueIdentifier>{500add69-4df8-4c75-b157-25efc5d493d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionSystem\EvolutionCore">
+      <UniqueIdentifier>{bb5a66cc-5ebd-42e8-939e-555a5fd97641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionSystem\EvolutionTime">
+      <UniqueIdentifier>{cd5a9dcf-5a72-42ee-838e-5570a0723451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionSystem\EvolutionShaders">
+      <UniqueIdentifier>{582024fc-e272-4517-90de-c39f24356e0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionSystem\EvolutionShaders\EvolutionDiffuse">
+      <UniqueIdentifier>{df91e5b0-edbe-45f4-abcd-abe0f5aac42e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionSystem\EvolutionShaders\EvolutionDiffuse\Default">
+      <UniqueIdentifier>{c9b15847-9d89-4d9f-8858-e7631f4e742a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionSystem\EvolutionShaders\EvolutionDiffuse\Texture">
+      <UniqueIdentifier>{a3004ecf-eb50-49a7-a5b0-e0d21679f336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionSystem\EvolutionShaders\EvolutionShader">
+      <UniqueIdentifier>{3f1d9955-9f30-4b96-9f07-5b4aa9ac6c5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionSystem\EvolutionMath">
+      <UniqueIdentifier>{f22e2546-84a0-4104-b5a4-37babe14fdb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionSystem\EvolutionTracers">
+      <UniqueIdentifier>{39c87a1e-d3a6-47c3-88b4-7363a3003f8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionSystem\EvolutionTracers\EvolutionConsole">
+      <UniqueIdentifier>{365ae439-0c59-4d61-a101-cd25906590a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionSystem\EvolutionTracers\EvolutionLog">
+      <UniqueIdentifier>{9e983378-01a5-4f17-afe9-904be219cfad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionSystem\EvolutionInput">
+      <UniqueIdentifier>{41779854-a15a-4445-a6f6-5a1cc5d7131d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionSystem\EvolutionManagers">
+      <UniqueIdentifier>{3f694e7c-49c1-452b-9eac-00d191711dc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionSystem\EvolutionManagers\EvolutionSceneManager">
+      <UniqueIdentifier>{c11f1b46-a6fb-4d35-9fba-9535548664c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionSystem\EvolutionManagers\EvolutionTextureManager">
+      <UniqueIdentifier>{1ae4f8df-9815-4cc1-8571-7a4bff086a17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionSystem\EvolutionManagers\EvolutionEffectManager">
+      <UniqueIdentifier>{b4bda90c-cdb5-4ef5-a651-d176cec8c574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionModel">
+      <UniqueIdentifier>{0f427fb0-6230-4771-850a-3a92525deff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionColliders">
+      <UniqueIdentifier>{f3d8c92c-919c-40eb-987b-ef2d9d9a213f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionColliders\EvolutionSphereCollider">
+      <UniqueIdentifier>{d91442b4-f277-444e-9cde-1d0279b3b939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionColliders\EvolutionCollider">
+      <UniqueIdentifier>{39f63e3a-d7b8-4dde-b417-cd0892cc4316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\TestObject">
+      <UniqueIdentifier>{2f492033-d9e7-484e-84a1-a46747e6a8b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionAnimationModel">
+      <UniqueIdentifier>{05f1b3a3-b01d-402f-97c9-b0be795bf640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionAnimationModel\EvolutionSkinningModel">
+      <UniqueIdentifier>{860822c2-a3ab-4119-9b73-cba6dd31d461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionAnimationModel\EvolutionAnimationHierarchy">
+      <UniqueIdentifier>{8e076ef7-fe5c-43cc-8353-50b530dbd3db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionSystem\EvolutionShaders\EvolutionDiffuse\Skinning">
+      <UniqueIdentifier>{98799da8-836a-447f-9bd8-dd1ce922bb92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionTrail">
+      <UniqueIdentifier>{93533f6f-b472-4a82-acfe-f7cf7a8ca8d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EvolutionEngine\EvolutionSprite2D">
+      <UniqueIdentifier>{faf9168d-6a8c-4464-a4e5-27965a6c462d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EvolutionCore.h">
+      <Filter>EvolutionEngine\EvolutionSystem\EvolutionCore</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolutionTime.h">
+      <Filter>EvolutionEngine\EvolutionSystem\EvolutionTime</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolutionGameObject2D.h">
+      <Filter>EvolutionEngine\EvolutionGameObject\EvolutionGameObject2D</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolutionGameObject.h">
+      <Filter>EvolutionEngine\EvolutionGameObject\EvolutionGameObject3D</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolutionScene.h">
+      <Filter>EvolutionEngine\EvolutionScene</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolutionSceneManager.h">
+      <Filter>EvolutionEngine\EvolutionSystem\EvolutionManagers\EvolutionSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>Game\TestScene</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolutionConsole.h">
+      <Filter>EvolutionEngine\EvolutionSystem\EvolutionTracers\EvolutionConsole</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolutionLog.h">
+      <Filter>EvolutionEngine\EvolutionSystem\EvolutionTracers\EvolutionLog</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolutionInput.h">
+      <Filter>EvolutionEngine\EvolutionSystem\EvolutionInput</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolutionCamera.h">
+      <Filter>EvolutionEngine\EvolutionCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolutionSkyBox.h">
+      <Filter>EvolutionEngine\EvolutionSkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolutionTextureManager.h">
+      <Filter>EvolutionEngine\EvolutionSystem\EvolutionManagers\EvolutionTextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolutionMath.h">
+      <Filter>EvolutionEngine\EvolutionSystem\EvolutionMath</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolutionEffectManager.h">
+      <Filter>EvolutionEngine\EvolutionSystem\EvolutionManagers\EvolutionEffectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolutionDiffuse.h">
+      <Filter>EvolutionEngine\EvolutionSystem\EvolutionShaders\EvolutionDiffuse\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolutionShape.h">
+      <Filter>EvolutionEngine\EvolutionShape</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolutionShader.h">
+      <Filter>EvolutionEngine\EvolutionSystem\EvolutionShaders\EvolutionShader</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolutionUIFont.h">
+      <Filter>EvolutionEngine\EvolutionUIFont</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolutionDiffuseTexture.h">
+      <Filter>EvolutionEngine\EvolutionSystem\EvolutionShaders\EvolutionDiffuse\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolutionModel.h">
+      <Filter>EvolutionEngine\EvolutionModel</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolutionSphereCollider.h">
+      <Filter>EvolutionEngine\EvolutionColliders\EvolutionSphereCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolutionCollider.h">
+      <Filter>EvolutionEngine\EvolutionColliders\EvolutionCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="TestObject.h">
+      <Filter>Game\TestObject</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolutionAnimationModel.h">
+      <Filter>EvolutionEngine\EvolutionAnimationModel</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolutionSkinningModel.h">
+      <Filter>EvolutionEngine\EvolutionAnimationModel\EvolutionSkinningModel</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolutionAnimationHierarchy.h">
+      <Filter>EvolutionEngine\EvolutionAnimationModel\EvolutionAnimationHierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolutionDiffuseSkinning.h">
+      <Filter>EvolutionEngine\EvolutionSystem\EvolutionShaders\EvolutionDiffuse\Skinning</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolutionTrail.h">
+      <Filter>EvolutionEngine\EvolutionTrail</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolutionSprite2D.h">
+      <Filter>EvolutionEngine\EvolutionSprite2D</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
